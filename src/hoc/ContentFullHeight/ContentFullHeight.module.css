@@ -1,0 +1,5 @@
+.content-full-height {
+    height: calc(100vh - 9rem);
+    width: 100%;
+    overflow-y: auto;
+}

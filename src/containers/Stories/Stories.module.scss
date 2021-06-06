@@ -1,0 +1,33 @@
+.white {
+    background-color: white;
+}
+
+.container-padding {
+    padding: 1.92rem;
+}
+
+.center-vertical {
+    display: flex;
+    align-items: center;
+}
+
+.link {
+    padding: 1.2rem 0;
+    margin-left: 2rem;
+    color: gray;
+    text-decoration: none;
+}
+
+.link:active,
+.link:hover,
+.active {
+    color: black;
+    text-decoration: none;
+    border-bottom: 3px solid rgb(59, 121, 255);
+    padding: calc(1.2rem - 3px) 0;
+    font-weight: 600;
+}
+
+.light-gray {
+    background-color: #eee;
+}

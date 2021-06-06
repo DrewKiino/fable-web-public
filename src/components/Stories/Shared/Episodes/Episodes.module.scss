@@ -1,0 +1,44 @@
+.container-padding {
+    padding: 1.2rem 1.2rem 1.2rem 5rem;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.grey-background {
+    background-color: #eee;
+    border-bottom: 1px solid lightgray;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20% 20% 26.7% 20% auto;
+}
+
+.grey {
+    color: grey;
+}
+
+.published,
+.unverified {
+    width: 100px;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 5px 2px;
+    border-radius: 5px;
+}
+
+.orange-background {
+    background-color: rgb(255, 151, 31);
+    color: white;
+}
+
+.blue-background {
+    background-color: rgb(59, 121, 255);
+    color: white;
+}
+
+.center {
+    text-align: center;
+}

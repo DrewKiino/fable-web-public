@@ -1,0 +1,38 @@
+.sidepanel {
+    top: 5rem;
+    left: 0;
+    position: fixed;
+    width: 12%;
+    height: calc(100% - 5rem);
+    border-right: 1px solid lightgrey;
+    background-color: white;
+    flex-direction: column;
+    display: flex;
+    padding: 1.25rem;
+    color: grey;
+    /* justify-content: center; */
+}
+
+.menu-text {
+    text-transform: uppercase;
+    margin-bottom: 0.2rem;
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+}
+
+.link {
+    margin: .8rem;
+    color: grey;
+    text-decoration: none;
+}
+
+.link:hover,
+.active {
+    color: black;
+    font-weight: 600;
+    text-decoration: none;
+}

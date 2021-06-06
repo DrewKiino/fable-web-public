@@ -1,0 +1,38 @@
+.loading {
+    top: 0;
+    left: 0;
+    z-index: 10;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 5rem;
+    font-weight: 600;
+    animation: removeLoading .2s ease-in 1.8s;
+    background-color: #eee;
+}
+
+.loading__text {
+    background: linear-gradient(to bottom right, #e66465, #9198e5);
+    background-clip: text;
+    color: rgba(0, 0, 0, .2);
+    animation: flicker 1.9s infinite 0.1s;
+    transform: skewX(-10deg);
+}
+
+@keyframes flicker {
+    0% {opacity: 0;}
+    25% {opacity: 1;}
+    50% {opacity: .8;}
+    75% {opacity: 1;}
+    100% {opacity: 0;}
+}
+
+@keyframes removeLoading {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}

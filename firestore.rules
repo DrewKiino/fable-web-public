@@ -1,0 +1,9 @@
+service cloud.firestore {
+  match /databases/{database}/documents {
+      allow read, write;
+  }
+  
+  match /stories/{story} {
+  	allow read: if request.auth !=null;
+  }
+}
